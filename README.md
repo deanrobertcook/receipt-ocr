@@ -6,4 +6,6 @@
 
 ### Plan for processing:
 - Create CSV with date, total, merchant, purchaser, lines with euro amounts, URL to original receipt
-- 
+- Import the CSV into google sheets, perform basic data cleaning
+- Add categories to all items based on item name
+- See what you're spending the most money on!
