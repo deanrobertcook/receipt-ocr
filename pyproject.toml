@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "receipt-ocr"
+version = "0.1.0"
+description = "An App to automate household expenses"
+authors = ["Dean Cook <deanrobertcook@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+receipt_ocr = 'receipt_ocr.main:main'
